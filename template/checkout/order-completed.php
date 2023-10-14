@@ -10,7 +10,7 @@
         <div class="thankyou-info-1">
             <p><?php _e('Terima kasih.', 'sejoli-chip-in'); ?></p>
             <p><?php printf(__('Pesanan untuk order INV %s telah selesai.', 'sejoli-chip-in'), $order['ID']); ?></p>
-            <p><?php _e('Silahkan cek email anda untuk infomasi selanjutnya.', 'sejoli-chip-in'); ?></p>
+            <p><?php _e('Silahkan cek email anda untuk informasi selanjutnya.', 'sejoli-chip-in'); ?></p>
         </div>
     </div>
 </div>

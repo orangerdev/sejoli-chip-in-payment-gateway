@@ -10,7 +10,7 @@
         <div class="thankyou-info-1">
             <p><?php _e('Terima kasih.', 'sejoli-chip-in'); ?></p>
             <p><?php printf(__('Pesanan untuk order INV %s sedang diproses.', 'sejoli-chip-in'), $order['ID']); ?></p>
-            <p><?php _e('Kami menunggu informasi dari Xendit untuk proses pembayaran.', 'sejoli-chip-in'); ?></p>
+            <p><?php _e('Kami menunggu informasi dari Chip In untuk proses pembayaran.', 'sejoli-chip-in'); ?></p>
         </div>
     </div>
 </div>

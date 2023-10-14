@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Sejoli - Chip In Payment Gateway\n"
-"POT-Creation-Date: 2023-10-14 14:21+0700\n"
-"PO-Revision-Date: 2023-10-14 14:22+0700\n"
+"POT-Creation-Date: 2023-10-14 14:43+0700\n"
+"PO-Revision-Date: 2023-10-14 14:45+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -23,153 +23,161 @@ msgstr ""
 
 #: class-chip-in-payment-gateway.php:48 class-chip-in-payment-gateway.php:49
 msgid "Chip In"
-msgstr ""
+msgstr "Chip In"
 
 #: class-chip-in-payment-gateway.php:50
 msgid "Transaksi via Chip In Payment Gateway."
-msgstr ""
+msgstr "Transactions via Chip In Payment Gateway."
 
 #: class-chip-in-payment-gateway.php:242
 msgid "Pengaturan Chip In"
-msgstr ""
+msgstr "Chip In Settings"
 
 #: class-chip-in-payment-gateway.php:244
 msgid "Aktifkan pembayaran melalui Chip In"
-msgstr ""
+msgstr "Activate payments via Chip In"
 
 #: class-chip-in-payment-gateway.php:246
 msgid "Payment Mode"
-msgstr ""
+msgstr "Payment Mode"
 
 #: class-chip-in-payment-gateway.php:248
 msgid "Sandbox"
-msgstr ""
+msgstr "Sandbox"
 
 #: class-chip-in-payment-gateway.php:249
 msgid "Live"
-msgstr ""
+msgstr "Live"
 
 #: class-chip-in-payment-gateway.php:258
 msgid "Credentials"
-msgstr ""
+msgstr "Credentials"
 
 #: class-chip-in-payment-gateway.php:266
 msgid "Brand ID (Sandbox)"
-msgstr ""
+msgstr "Brand ID (Sandbox)"
 
 #: class-chip-in-payment-gateway.php:268 class-chip-in-payment-gateway.php:294
 msgid ""
 "Brand ID can be obtained from CHIP Collect Dashboard >> Developers >> Brands."
 msgstr ""
+"Brand ID can be obtained from CHIP Collect Dashboard >> Developers >> Brands."
 
 #: class-chip-in-payment-gateway.php:279
 msgid "Secret API Key (Sandbox)"
-msgstr ""
+msgstr "Secret API Key (Sandbox)"
 
 #: class-chip-in-payment-gateway.php:281 class-chip-in-payment-gateway.php:307
 msgid ""
 "Secret key can be obtained from CHIP Collect Dashboard >> Developers >> Keys."
 msgstr ""
+"Secret key can be obtained from CHIP Collect Dashboard >> Developers >> Keys."
 
 #: class-chip-in-payment-gateway.php:292
 msgid "Brand ID (Live)"
-msgstr ""
+msgstr "Brand ID (Live)"
 
 #: class-chip-in-payment-gateway.php:305
 msgid "Secret API Key (Live)"
-msgstr ""
+msgstr "Secret API Key (Live)"
 
 #: class-chip-in-payment-gateway.php:318
 msgid "Webhooks"
-msgstr ""
+msgstr "Webhooks"
 
 #: class-chip-in-payment-gateway.php:326
 msgid "Webhook Public Key"
-msgstr ""
+msgstr "Webhook Public Key"
 
 #: class-chip-in-payment-gateway.php:328
 msgid ""
 "This option to set public key that are generated through CHIP Dashboard >> "
 "Webhooks page. The callback url is: "
 msgstr ""
+"This option to set public key that are generated through CHIP Dashboard >> "
+"Webhooks page. The callback url is: "
 
 #: class-chip-in-payment-gateway.php:336
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Miscellaneous"
 
 #: class-chip-in-payment-gateway.php:344
 msgid "Purchase Time Zone"
-msgstr ""
+msgstr "Purchase Time Zone"
 
 #: class-chip-in-payment-gateway.php:355
 msgid "Enable Due Strict"
-msgstr ""
+msgstr "Enable Due Strict"
 
 #: class-chip-in-payment-gateway.php:363
 msgid "Due Strict Timing (minutes)"
-msgstr ""
+msgstr "Due Strict Timing (minutes)"
 
 #: class-chip-in-payment-gateway.php:365
 msgid ""
 "Due strict timing in minutes. Default to hold stock minutes: 60. This will "
 "only be enforced if Due Strict option is activated."
 msgstr ""
+"Due strict timing in minutes. Default to hold stock minutes: 60. This will "
+"only be enforced if Due Strict option is activated."
 
 #: class-chip-in-payment-gateway.php:377
 msgid "Purchase Send Receipt"
-msgstr ""
+msgstr "Purchase Send Receipt"
 
 #: class-chip-in-payment-gateway.php:378
 msgid ""
 "Tick to ask CHIP to send receipt upon successful payment. If activated, CHIP "
 "will send purchase receipt upon payment completion."
 msgstr ""
+"Tick to ask CHIP to send receipt upon successful payment. If activated, CHIP "
+"will send purchase receipt upon payment completion."
 
 #: class-chip-in-payment-gateway.php:418
-msgid "Transaksi via Chip_in"
-msgstr ""
+msgid "Transaksi via Chip in"
+msgstr "Transaction via Chip in"
 
 #: class-chip-in-payment-gateway.php:910
 msgid "Order telah dibatalkan"
-msgstr ""
+msgstr "Order has been cancelled"
 
 #: class-chip-in-payment-gateway.php:915
 msgid "Order selesai"
-msgstr ""
+msgstr "Order has been completed"
 
 #: class-chip-in-payment-gateway.php:920
 msgid "Order sudah diproses"
-msgstr ""
+msgstr "Order has been proceed"
 
 #: class-chip-in-payment-gateway.php:1005
 msgid "via Chip In"
-msgstr ""
+msgstr "via Chip In"
 
 #: template/checkout/footer-secure.php:3
 msgid "Informasi Pribadi Anda Aman"
-msgstr ""
+msgstr "Your Personal Information is Safe"
 
 #: template/checkout/footer-secure.php:5
 msgid "100% Garansi Uang Kembali"
-msgstr ""
+msgstr "100% Money Back Guarantee"
 
 #: template/checkout/header-thankyou.php:9
 msgid "Order tidak ada."
-msgstr ""
+msgstr "Order does not exist."
 
 #: template/checkout/header-thankyou.php:10
 msgid "Terjadi kesalahan"
-msgstr ""
+msgstr "There is an error"
 
 #: template/checkout/header-thankyou.php:20
 msgid "Terima kasih"
-msgstr ""
+msgstr "Thank You"
 
 #: template/checkout/order-cancelled.php:9
 #: template/checkout/order-completed.php:9
 #: template/checkout/order-processed.php:9
 msgid "Halo "
-msgstr ""
+msgstr "Hello "
 
 #: template/checkout/order-cancelled.php:11
 #, php-format
@@ -177,54 +185,58 @@ msgid ""
 "Pembayaran Anda Gagal, Pesanan untuk order INV %s telah dibatalkan. Terima "
 "kasih."
 msgstr ""
+"Your payment has failed, the order for INV order %s has been cancelled. "
+"Thank You."
 
 #: template/checkout/order-completed.php:11
 #: template/checkout/order-processed.php:11
 msgid "Terima kasih."
-msgstr ""
+msgstr "Thank You."
 
 #: template/checkout/order-completed.php:12
 #, php-format
 msgid "Pesanan untuk order INV %s telah selesai."
-msgstr ""
+msgstr "The order for INV order %s has been completed."
 
 #: template/checkout/order-completed.php:13
-msgid "Silahkan cek email anda untuk infomasi selanjutnya."
-msgstr ""
+msgid "Silahkan cek email anda untuk informasi selanjutnya."
+msgstr "Please check your email for further information."
 
 #: template/checkout/order-processed.php:12
 #, php-format
 msgid "Pesanan untuk order INV %s sedang diproses."
-msgstr ""
+msgstr "Orders for INV order %s are being processed."
 
 #: template/checkout/order-processed.php:13
-msgid "Kami menunggu informasi dari Xendit untuk proses pembayaran."
-msgstr ""
+msgid "Kami menunggu informasi dari Chip In untuk proses pembayaran."
+msgstr "We are waiting for information from Chip In for the payment process."
 
 #: template/email/chip-in.php:9 template/whatsapp/chip-in.php:9
 #, php-format
 msgid "%s bisa melanjutkan pembayaran melalui link dibawah ini"
-msgstr ""
+msgstr "%s can continue payment via the link below"
 
 #: template/email/chip-in.php:21
 msgid "Selesaikan pembayaran"
-msgstr ""
+msgstr "Complete payment"
 
 #. Plugin Name of the plugin/theme
 msgid "Sejoli - Chip In Payment Gateway"
-msgstr ""
+msgstr "Sejoli - Chip In Payment Gateway"
 
 #. Plugin URI of the plugin/theme
 #. Author URI of the plugin/theme
 msgid "https://sejoli.co.id"
-msgstr ""
+msgstr "https://sejoli.co.id"
 
 #. Description of the plugin/theme
 msgid ""
 "Integrate Sejoli Premium WordPress Membership Plugin with Chip In Payment "
 "Gateway."
 msgstr ""
+"Integrate Sejoli Premium WordPress Membership Plugin with Chip In Payment "
+"Gateway."
 
 #. Author of the plugin/theme
 msgid "Sejoli"
-msgstr ""
+msgstr "Sejoli"

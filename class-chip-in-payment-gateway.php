@@ -415,7 +415,7 @@ final class SejoliChipIn extends \SejoliSA\Payment{
                     case 'chip-in' :
 
                         $options[$key] = [
-                            'label' => __( 'Transaksi via Chip_in', 'sejoli-chip-in' ),
+                            'label' => __( 'Transaksi via Chip in', 'sejoli-chip-in' ),
                             'image' => $image_source_url . 'img/chip-in-logo.png'
                         ];
 
